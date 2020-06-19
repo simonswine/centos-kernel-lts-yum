@@ -1,0 +1,21 @@
+[kernel-lts-5.4-epel-7]
+name=Copr repo for kernel-lts-5.4 owned by simonswine
+baseurl=https://download.copr.fedorainfracloud.org/results/simonswine/kernel-lts-5.4/epel-7-$basearch/
+type=rpm-md
+skip_if_unavailable=True
+gpgcheck=1
+gpgkey=https://download.copr.fedorainfracloud.org/results/simonswine/kernel-lts-5.4/pubkey.gpg
+repo_gpgcheck=0
+enabled=1
+enabled_metadata=1
+
+[kernel-lts-5.4-epel-8]
+name=Copr repo for kernel-lts-5.4 owned by simonswine
+baseurl=https://download.copr.fedorainfracloud.org/results/simonswine/kernel-lts-5.4/epel-8-$basearch/
+type=rpm-md
+skip_if_unavailable=True
+gpgcheck=1
+gpgkey=https://download.copr.fedorainfracloud.org/results/simonswine/kernel-lts-5.4/pubkey.gpg
+repo_gpgcheck=0
+enabled=1
+enabled_metadata=1
